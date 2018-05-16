@@ -1,0 +1,66 @@
+/**
+  * 饿了么样式重写
+ */
+
+
+/**
+  导航栏
+ */
+
+.el-submenu__title {
+  background: rgb(73, 80, 96) !important;
+}
+
+.el-menu-item, .el-submenu__title {
+  height: 49px;
+  line-height: 49px;
+  background: rgb(73, 80, 96) !important;
+}
+
+.el-menu {
+  border-color: rgb(84, 92, 100) !important;
+  background: rgb(84, 92, 100) !important;
+  border: none;
+}
+
+.el-submenu.is-opened {
+  color: #fff !important;
+}
+
+.el-submenu .el-menu .el-menu-item {
+  background: #363e4f !important;
+  opacity: 0.8;
+}
+
+.el-menu .el-menu  .el-menu-item.is-active {
+  color: #fff !important;
+  background: #2d8cf0!important;
+}
+
+.el-menu-vertical-demo .el-menu-item.is-active{
+    background: #363e4f !important;
+    color: #2d8cf0 !important;
+    border-right: 2px solid #2d8cf0;
+}
+
+
+/**
+  * input
+ */
+
+.search .el-input__inner {
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+.el-input-group--prepend .el-input__inner, .el-input-group__append {
+  border-radius: 0 !important;
+  background: #2d8cf0;
+  color: #fff;
+  border-color: #2d8cf0;
+  cursor: pointer;
+}
+
+.ipt-width {
+  width: 300px;
+}
